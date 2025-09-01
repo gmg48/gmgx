@@ -1,0 +1,5 @@
+;; This is a Guix channel.
+
+(channel
+ (version 0)
+ (url "https://codeberg.org/gmg48/gmgx.git"))

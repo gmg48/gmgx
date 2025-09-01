@@ -1,0 +1,13 @@
+*~
+.#*
+\#*\#
+,*
+
+*.go
+
+*.tmp
+tmp/
+*.log
+
+.dir-locals-2.el
+*.local.*

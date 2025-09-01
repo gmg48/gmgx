@@ -1,0 +1,13 @@
+root = true
+
+[*.scm]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.scm]
+max_line_length = 80
+
+[*.scm]
+indent_style = space
