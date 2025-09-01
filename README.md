@@ -7,6 +7,8 @@ This channel provides packages and services that are either awaiting inclusion
 in or not yet submitted to upstream GNU Guix, or cannot be included due to
 upstream licensing guidelines and policies (such as non-free software).
 
+https://codeberg.org/gmg48/gmgx
+
 ## Usage
 
 Add the channel to your `~/.config/guix/channels.scm`:
