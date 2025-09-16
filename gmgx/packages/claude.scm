@@ -17,7 +17,7 @@
 (define-public claude-code-nonfree
   (package
     (name "claude-code")
-    (version "1.0.98")
+    (version "1.0.115")
     (source
      (origin
        (method url-fetch)
@@ -26,8 +26,8 @@
              "claude-code-" version ".tgz"))
        (sha256
         (base32
-         ;; guix download https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-1.0.98.tgz
-         "1v1p9ddd1yjw2d84xjlbyjv6rndjd9qibsbjbxclhakcs0qwwb7c"))))
+         ;; guix download https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-1.0.115.tgz
+         "19mawcfcq7giz75hbn6qdjisca2d8xxfm1p7h7ppbwjrdz6vrdrr"))))
 
     (build-system trivial-build-system)
     (arguments
