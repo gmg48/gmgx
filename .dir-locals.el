@@ -14,8 +14,9 @@
      (geiser-guile-binary . ("guix" "repl"))))
 
  (scheme-mode
-  (eval (lambda nil (highlight-regexp "(define.+-git$" 'hi-yellow-b)))
-  (eval (lambda nil (highlight-regexp "(define.+-bin$" 'hi-red-b)))
-  (eval (lambda nil (highlight-regexp "(define.+-nonfree$" 'hi-red-b)))
-  (eval (lambda nil (highlight-regexp "nonfree:nonfree" 'hi-red-b)))
-  . ((indent-tabs-mode . nil))))
+  . ((eval . (progn
+               (highlight-regexp "(define.+-git$" 'hi-yellow-b)
+               (highlight-regexp "(define.+-bin$" 'hi-red-b)
+               (highlight-regexp "(define.+-nonfree$" 'hi-red-b)
+               (highlight-regexp "nonfree:nonfree" 'hi-red-b)))
+     (indent-tabs-mode . nil))))
